@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 /*
  * Grok CLI v2.0 - Inteligência PHP com Segurança, Git & Refatoração Automatizada
