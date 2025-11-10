@@ -1,3 +1,38 @@
+# === PHP / Composer ===
+/vendor/
+/composer.lock
+/composer.phar
+
+# === Ambiente ===
 .env
-vendor/
-logs/
+.env.local
+.env.*.local
+
+# === Logs do Grok CLI ===
+/logs/
+/logs/*
+
+# === Backups automáticos ===
+*.bak.*
+*.bak
+
+# === IDEs e Editores ===
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+
+# === Sistema ===
+.DS_Store
+Thumbs.db
+.contents-gemini.json
+
+# === Binário local (opcional, se não quiser versionar o executável) ===
+# /bin/grok-cli.php
+
+# === Outros ===
+/node_modules/
+/tests/
+/coverage/
+/phpunit.xml

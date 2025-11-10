@@ -1,4 +1,4 @@
-# Grok CLI v2.4  
+# Grok CLI v0.2  
 **Inteligência Artificial para PHP — Segurança, Refatoração, Testes e Versionamento Automatizado**
 
 ![PHP](https://img.shields.io/badge/PHP-8.3%2B-777BB4?logo=php&logoColor=white)
@@ -7,17 +7,18 @@
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04-E95420?logo=ubuntu&logoColor=white)
 
 > **"Máxima verdade. Máxima segurança. Máxima qualidade em PHP."**  
-> — **@SantosDiaX** | André Santos | Brasil
+>  **Nota**: Não vai ter continuidade. Foi desenvolvida apenas para testar
+
 
 ---
 
-## Status: **FUNCIONANDO 100%**
+## Status: **FUNCIONANDO**
 
 ```
 grok-cli analyze test-grok.php --apply
 ```
 
-**Tudo funcionando:**
+
 - Análise de segurança (OWASP)
 - Correção automática com `--apply`
 - Backup automático
@@ -187,7 +188,7 @@ Custo estimado: $0.000012
 
 ## Autor
 
-**André Santos**  
+**André Dias**  
 **@SantosDiaX**  
 **Brasil**  
 **10 de novembro de 2025, 19:31 -03**
