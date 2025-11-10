@@ -1,17 +1,24 @@
 {
-    "name": "andre/grok-cli",
-    "description": "Grok CLI para análise e refatoração de PHP",
+    "name": "santosdiax/grok-cli",
+    "description": "Grok CLI - Inteligência PHP com Segurança, Refatoração e Git",
+    "type": "project",
+    "license": "MIT",
+    "bin": ["grok-cli.php"],
     "require": {
         "php": "^8.3",
         "vlucas/phpdotenv": "^5.6",
         "guzzlehttp/guzzle": "^7.8",
         "symfony/console": "^6.4 || ^7.0",
-        "symfony/finder": "^6.4 || ^7.0"
+        "symfony/finder": "^6.4 || ^7.0",
+        "symfony/process": "^6.4 || ^7.0"
     },
-    "bin": ["grok-cli.php"],
     "autoload": {
         "psr-4": {
             "GrokCLI\\": "src/"
         }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
     }
 }
